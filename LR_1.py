@@ -14,7 +14,7 @@ for line in reader:
     if line[1] == '933156729':
         sms += float(line[4])
         originCall += float(line[3])
-    if line[2] == '':
+    if line[2] == '933156729':
         destCall += float(line[3])
 
 # Тарификация CDR
