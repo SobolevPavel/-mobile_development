@@ -28,7 +28,7 @@ else:
     originCallCost = originCall * 2
 
 # Считаем общую стоимость
-totalCost = smsCost + originCallCost + originCallCost
+totalCost = smsCost + originCallCost + destCallCost
 print(totalCost)
 
 
